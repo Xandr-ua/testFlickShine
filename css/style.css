@@ -1,0 +1,100 @@
+body{
+	margin: 0;
+}
+
+img{
+	max-width: 100%;
+	display: block;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+.conteiner{
+	max-width: 1500px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+.header {
+    background-image: url(../img/backHeader.webp);
+    background-repeat: no-repeat;
+	background-position: center;
+}
+
+.header__menu-list{
+	font-family: 'Space Grotesk', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: start;
+	list-style-type: none;
+
+}
+
+.header__menu-list li{
+	margin-right: 50px;
+	text-align: center;
+	cursor: pointer;
+	color: #00A8CE;
+}
+
+.header__menu-list li:hover{
+	font-weight: 900;
+}
+
+/* .header__menu-list li::after{
+	content: '';
+	border: 1px solid #00A8CE;
+	border-radius: 50%;
+	height: 5px;
+	width: 5px;
+} */
+
+.header__menu-link:first-child{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 30px;
+	color: #00A8CE;
+	border: 2px solid #00A8CE;
+	border-radius: 10px;
+	padding: 5px 17px;
+	content: none;
+}
+
+.header__menu-link:first-child:hover{
+	color: #fff;
+	background-color: #00A8CE;
+
+}
+
+.header_img{
+	margin-top: 110px;
+}
+
+.header_title h1{
+	font-family: 'Space Grotesk', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 35px;
+	line-height: 43px;
+	margin-top: 20px;
+	color: #31576C;
+	text-align: center;
+}
+
+.header_title p{
+	font-family: 'Space Grotesk', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 30px;
+	margin-top: 20px;
+	color: #00A8CE;
+	text-align: center;
+}
